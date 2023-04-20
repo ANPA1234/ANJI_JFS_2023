@@ -1,5 +1,9 @@
 public class Greetings {
     public static void main(String[] args) {
-        System.out.println("welcome to java world");
+        String username = "user";
+        if (args.length>0){
+            username = args[0];
+        }
+        System.out.println("Hi "+username+". \n\twelcome to java world");
     }
 }
